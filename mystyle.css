@@ -12,6 +12,15 @@ body
 	box-sizing: border-box;
 	font-family: sans-serif;
 	overflow: hidden;
+	.slider
+ {
+	position: relative;
+	width: 600px;
+	margin: 0;
+	margin-bottom: 0;
+	left: 0;
+	animation: 20s slider infinite;
+ }
 }
 .menu1
  {
@@ -46,15 +55,6 @@ body
  	background: rgb(0,100,0);
  	margin-left: -15px;
  	opacity: .8;
- }
- .slider
- {
-	position: relative;
-	width: 600px;
-	margin: 0;
-	margin-bottom: 0;
-	left: 0;
-	animation: 20s slider infinite;
  }
  @media only screen and (max-width: 600px)
 {
