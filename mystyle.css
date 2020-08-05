@@ -1,0 +1,70 @@
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body
+{
+	background: green;
+	height: 100vh;
+	background-size: cover;
+	bacground-position: center;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	overflow: hidden;
+}
+.menu1
+ {
+ 	background: orange;
+ 	background-size: cover;
+ 	text-align: center; 
+ }
+ .menu1 ul
+ {
+ 	background-size: cover;
+ 	display: inline-flex;
+ 	list-style: none;
+ 	color: #fff;
+ }
+ .menu1 ul li
+ {
+ 	background-size: cover;
+ }
+ .menu11 .menu1 ul li hover
+ {
+ 	background: #2bab0d;
+ 	border-radius: 3px;
+ }
+ .sub-menu-1
+ {
+ 	display: none; 
+ }
+ .menu1 ul li:hover .sub-menu-1
+ {
+ 	display: block;
+ 	position:  absolute;
+ 	background: rgb(0,100,0);
+ 	margin-left: -15px;
+ 	opacity: .8;
+ }
+ @media only screen and (max-width: 600px)
+{
+	.menu1
+	{
+		height: 118px;
+		border-bottom: 0;
+	}
+	.menu1 ul 
+	{
+		width: 100%;
+	}
+	.menu1 ul li
+	{
+		width: 100%
+	}
+	.menu1 ul a
+	{
+		margin: 10px 0;
+		width: 100%
+	}
+}
